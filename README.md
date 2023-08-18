@@ -24,7 +24,7 @@ Here's a live demo of the Sorting Visualizer: [Demo Link](your-demo-link)
 
 ## Getting Started
 
-1. Clone this repository: `git clone [https://github.com/HarshSharma1246/SortingAlgoritmVisualizer](https://github.com/HarshSharma1246/SortingAlgorithmVisualizer).git`
+1. Clone this repository: `git clone https://github.com/HarshSharma1246/SortingAlgorithmVisualizer`
 2. Open the `index.html` file in your web browser.
 
 ## Usage
