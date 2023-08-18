@@ -1,0 +1,50 @@
+body {
+    background-color: #343a40;
+    color: white;
+}
+
+header {
+    background-color: #212529;
+    padding: 10px 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+.flex-container {
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    /* Reverse the wrapping to start from the bottom */
+    width: 90%;
+    height: 500px;
+    justify-content: center;
+    align-items: flex-start;
+    /* Align items to the top */
+    transition: 2s all ease;
+}
+
+.flex-item {
+    background: cyan;
+    border: 1pt solid black;
+    flex-grow: 1;
+    /* Expand to occupy available space */
+    transition: 0.1s all ease;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+}
+
+#input {
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+}
